@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    /* vh ou vw usa o espaço todo da tela */
+
+    display: flex;
+    /* Define que vai usar o flex para o alinhamento dos elemntos */
+    /* Automaticamente deixa as coisas na linha horizontal */
+    flex-direction: column;
+    /* Para deixar em coluna */
+    justify-content: center;
+    /* Alinha horizontalmente o elemento */
+    align-items: center;
+    /* Alinhamento vertical */
+
+    padding: 50px;
+    /* Espaçamento INTERNOOO */
+
+    gap: 30px;
+}
+
+.titulo{
+    font-size: 29px;
+}
+
+.subtitulo{
+    text-align: center;
+    /* Botton é para baixo em portugues :D */
+}
+
+div{
+    width: 100%;
+}
+
+.btn, .btn2{
+    background-color: #FFFF;
+    border: none;
+    border: solid 2px #888888;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+}
+
+.btn2{
+    background-color: #17ef0c;
+    border: solid 2px #17ef0c;
+}
+
+.areabtn{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+
